@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+
+.container{
+   background-color: crimson;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.currencyContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.currencyContainer select{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.currencyContainer input{
+  font-size: 25px;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.currencyContainer span{
+    font-size: 25px;
+    color: white;
+}
+
+input:focus,
+select:focus{
+outline: none;
+}
+
+.exchangeRate{
+    font-weight: 600;
+}
